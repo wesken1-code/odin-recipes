@@ -6,8 +6,24 @@ body {
 div {
     background-color: gray;
     padding: 8px;
-    margin: 32px;
+}
+a {
+    text-decoration: none;
 }
 .link {
     font-size: 10px;
+}
+.home_buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: bisque;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
 }
